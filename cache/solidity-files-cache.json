@@ -1,0 +1,77 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "/workspaces/dex/contracts/SuperDexFactory.sol": {
+      "lastModificationDate": 1706420546681,
+      "contentHash": "dd2f7a6b0cde883c81415cdbea0f24e5",
+      "sourceName": "contracts/SuperDexFactory.sol",
+      "solcConfig": {
+        "version": "0.8.19",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./SuperDexPool.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.19"
+      ],
+      "artifacts": [
+        "SuperDexFactory"
+      ]
+    },
+    "/workspaces/dex/contracts/SuperDexPool.sol": {
+      "lastModificationDate": 1706275716275,
+      "contentHash": "a54fdfaec894495840690b25c4be18f8",
+      "sourceName": "contracts/SuperDexPool.sol",
+      "solcConfig": {
+        "version": "0.8.19",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.19"
+      ],
+      "artifacts": [
+        "SuperDexPool"
+      ]
+    }
+  }
+}
